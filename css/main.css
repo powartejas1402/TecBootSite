@@ -2390,10 +2390,14 @@ textarea {
     .page-header-alpha .navbar-brand .logo img {
       height: 60px;
       width: 100px; }
-      @media (min-width: 768px) {
-        .page-header-alpha .navbar-brand .logo img {
+      @media (min-width: 768px) 
+      {
+        .page-header-alpha .navbar-brand .logo img 
+        {
           height: 60px; 
-          width: 95px;} }
+          width: 95px;
+        } 
+      }
     .page-header-alpha .navbar-brand .text {
       display: flex;
       justify-content: center;
